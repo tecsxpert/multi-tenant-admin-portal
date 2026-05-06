@@ -3,8 +3,12 @@ from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
 from services.security import validate_input
+from routes.ai_routes import ai_bp
 
 app = Flask(__name__)
+
+# Register Blueprints
+app.register_blueprint(ai_bp, url_prefix='/api')
 
 # Rate limiting
 limiter = Limiter(

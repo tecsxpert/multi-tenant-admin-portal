@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+@theme {
+  --color-brand: #078446;
+  --color-primary: #000000;
+  --font-schibsted: "Schibsted Grotesk", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply transition-colors duration-300 antialiased font-schibsted bg-white text-black;
+  }
+  
+  .dark body {
+    @apply bg-black text-white;
+  }
+
+  h1 {
+    @apply font-black tracking-tighter;
+  }
+  
+  h2, h3, h4 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+/* Minimalist Tier-1 Components */
+.glass {
+  @apply bg-transparent border border-black/20 dark:border-white/10;
+}
+
+.btn-brand {
+  @apply bg-brand text-black font-bold px-6 py-3 rounded-xl border-2 border-brand hover:bg-black hover:text-brand dark:hover:bg-white dark:hover:text-black transition-all;
+}
+
+.card-minimal {
+  @apply border border-black/10 dark:border-white/5 p-8 transition-all hover:border-brand rounded-2xl;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-brand;
+}

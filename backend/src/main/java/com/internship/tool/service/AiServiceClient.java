@@ -14,7 +14,7 @@ public class AiServiceClient {
     this.restTemplate = restTemplate;
 }
 
-    private static final String BASE_URL = "http://localhost:5000";
+    private static final String BASE_URL = "http://localhost:5000/api";
     private static final int TIMEOUT = 10000; // 10 seconds
 
     private HttpEntity<Map<String, String>> buildRequest(String input) {
