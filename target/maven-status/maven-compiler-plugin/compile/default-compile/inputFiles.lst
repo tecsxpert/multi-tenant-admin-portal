@@ -1,10 +1,14 @@
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\BackendApplication.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\config\JwtAuthenticationFilter.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\config\JwtUtil.java
+C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\config\RestTemplateConfig.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\config\SecurityConfig.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\controller\AuthController.java
+C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\controller\HealthController.java
+C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\controller\ReportController.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\controller\TenantController.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\dto\AuthResponse.java
+C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\dto\GenerateReportResponse.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\dto\LoginRequest.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\dto\RegisterRequest.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\dto\TenantDTO.java
@@ -15,6 +19,8 @@ C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\ja
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\exception\NotFoundException.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\repository\TenantRepository.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\repository\UserRepository.java
+C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\service\AiIntegrationService.java
+C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\service\AiServiceClient.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\service\AuthService.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\service\CustomUserDetailsService.java
 C:\Users\anush\.gemini\antigravity\scratch\multi-tenant-admin-portal\src\main\java\com\internship\tool\service\EmailService.java
